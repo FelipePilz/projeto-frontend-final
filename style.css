@@ -130,7 +130,7 @@ section.porque-nos > .center > p {
     margin-bottom: 20px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 910px) {
     .marcas > .center {
         flex-wrap: nowrap;
         flex-direction: column;
