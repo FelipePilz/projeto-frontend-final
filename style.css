@@ -213,6 +213,90 @@ section.beneficios {
     max-width: 100%;
 }
 
+section.depoimentos {
+    background-color: #fbfcfe;
+    padding: 40px 0;
+}
+
+section.depoimentos h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.container-slider {
+    overflow: hidden;
+}
+
+.container-slider-single {
+    float: left;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.container-slider-single h4 {
+    font-weight: normal;
+    color: #7e92ac;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.container-slider-single p {
+    margin: 10px 0;
+    color: #7e92ac;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.slick-slide {
+    margin-left: 27px;
+}
+
+/* the parent */
+.slick-list {
+    margin-left: -27px;
+}
+
+/****SLICK SLIDER****/
+
+.slick-dotted ul {
+    display: block;
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+}
+
+.slick-dotted li {
+    display: inline-block;
+    margin: 0 7px;
+}
+
+.slick-dotted button:focus {
+    outline: 0;
+}
+
+.slick-dotted li button {
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    color: #d2d8eb;
+    border-width: 0;
+    background-color: #d2d8eb;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+li.slick-active button {
+    background: #255aff;
+    color: #255aff;
+}
+
+.slick-slide:focus {
+    outline: none;
+}
+
 @media screen and (max-width: 910px) {
     .marcas > .center {
         flex-wrap: nowrap;
