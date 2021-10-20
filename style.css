@@ -297,6 +297,58 @@ li.slick-active button {
     outline: none;
 }
 
+section.contato {
+    padding: 40px 0;
+    text-align: center;
+}
+
+section.contato h2 {
+    font-size: 50px;
+    margin: 35px 0;
+}
+
+section.contato form {
+    width: 55%;
+    margin: auto;
+}
+
+.contato input[type="text"],
+.contato input[type="email"] {
+    width: 100%;
+    height: 50px;
+    margin: 8px 0;
+    background: #fcfddf;
+    border: 1px solid #c3cce8;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.contato textarea {
+    width: 100%;
+    height: 150px;
+    resize: none;
+    margin: 8px 0;
+    background: #fcfddf;
+    border: 1px solid #c3cce8;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.contato input[type="submit"] {
+    width: 100%;
+    cursor: pointer;
+    padding: 15px 40px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #255aff;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
 @media screen and (max-width: 910px) {
     .marcas > .center {
         flex-wrap: nowrap;
@@ -331,5 +383,9 @@ li.slick-active button {
 
     .img-beneficios {
         display: none;
+    }
+
+    section.contato form {
+        width: 80%;
     }
 }
