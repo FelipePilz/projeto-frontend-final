@@ -17,3 +17,8 @@ $(".container-slider").slick({
         },
     ],
 });
+
+var menuBtn = document.querySelector(".items-menu-mobile i");
+menuBtn.addEventListener("click", () => {
+    document.querySelector(".menu-mobile").classList.toggle("show");
+});

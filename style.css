@@ -31,6 +31,18 @@ section.main {
     width: 50%;
 }
 
+.items-menu-mobile {
+    display: none;
+    width: 50%;
+    text-align: right;
+}
+
+.items-menu-mobile i {
+    color: #ffffff;
+    font-size: 50px;
+    cursor: pointer;
+}
+
 .items-menu {
     width: 50%;
     text-align: right;
@@ -298,7 +310,7 @@ li.slick-active button {
 }
 
 section.contato {
-    padding: 40px 0;
+    padding: 40px 0 100px 0;
     text-align: center;
 }
 
@@ -349,7 +361,54 @@ section.contato form {
     text-transform: uppercase;
 }
 
+footer {
+    padding: 35px 0;
+    background-color: #255aff;
+    color: #ffffff;
+}
+
+footer .items-menu {
+    width: 50%;
+}
+
+footer .text-footer {
+    width: 50%;
+}
+
+.show {
+    opacity: 1 !important;
+}
+
 @media screen and (max-width: 910px) {
+    .items-menu {
+        display: none;
+    }
+
+    .items-menu-mobile {
+        display: block;
+    }
+
+    .items-menu-mobile .menu-mobile {
+        opacity: 0;
+        transition: 0.5s;
+        position: absolute;
+        left: 0;
+        top: 70px;
+        background-color: #ffffff;
+        width: 100%;
+        padding: 5px 0;
+        text-align: center;
+    }
+
+    .menu-mobile a {
+        display: block;
+        margin: 15px 0;
+        color: #255aff;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 17px;
+    }
+
     .marcas > .center {
         flex-wrap: nowrap;
         flex-direction: column;
@@ -387,5 +446,14 @@ section.contato form {
 
     section.contato form {
         width: 80%;
+    }
+
+    footer {
+        padding: 25px 0;
+    }
+
+    footer .text-footer {
+        width: 100%;
+        text-align: center;
     }
 }
