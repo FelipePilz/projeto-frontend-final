@@ -130,6 +130,39 @@ section.porque-nos > .center > p {
     margin-bottom: 20px;
 }
 
+section.cta {
+    background-image: url("images/misc/banner-meio.png");
+    background-size: cover;
+    background-position: center;
+    padding: 20px 10px;
+    min-height: 300px;
+    text-align: center;
+    color: #ffffff;
+}
+
+section.cta h2 {
+    font-size: 40px;
+}
+
+section.cta h2,
+section.cta h4 {
+    font-weight: normal;
+    margin: 38px 0;
+}
+
+section.cta a {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 15px 40px;
+    border-radius: 5px;
+    background-color: #ffdd33;
+    text-decoration: none;
+    color: #0f3fd3;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
 @media screen and (max-width: 910px) {
     .marcas > .center {
         flex-wrap: nowrap;
